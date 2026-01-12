@@ -14,7 +14,7 @@ const completeBtn = document.getElementById('complete-button');
 
 let countdownTitle = '';
 let countdownDate = '';
-let countdownValue = Date; // sets to green when it's a date object
+let countdownValue = new Date; // sets to green when it's a date object
 let countdownActive; 
 let savedCountdown;
 
